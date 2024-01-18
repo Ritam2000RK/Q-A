@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(135, 206, 235, 0.1);
+}
+
+.box {
+  background-color: white;
+  width: 65vh;
+  border-radius: 0.5rem;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  object-fit: contain;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  margin: 0 1rem;
+  display: none;
+}
+
+.showHorz {
+  display: block;
+}
+
+h1 {
+  margin: 7rem 0 4rem 0;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  color: rgb(219, 164, 25);
+  font-weight: 100;
+}
+
+.question {
+  display: flex;
+  width: 65vh;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 1rem 1rem;
+  font-family: monospace;
+  opacity: 0.8;
+}
+
+.question i {
+  font-size: 1.5rem;
+  color: rgb(219, 164, 25);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.question i:hover {
+  transform: rotate(90deg);
+}
+
+.answer {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  width: 65vh;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  display: none;
+}
+
+.show-answer {
+  display: block;
+}
